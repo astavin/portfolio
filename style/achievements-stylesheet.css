@@ -1,0 +1,49 @@
+h1 {
+        color: green;
+    }
+    p {
+        color:navy;
+    }
+    body {
+        background-color: antiquewhite;
+    }
+    ul {
+        color: navy;
+    }
+    h2 {
+        color: rgb(120, 64, 133);
+    }
+    blockquote {
+        color: hsl(30, 80%, 55%);
+    }
+    .blue-text:hover {
+        color: gray;
+    }
+    small:hover {
+        background-color: whitesmoke;
+    }
+       footer p {
+        color: black;
+    }
+    .photo {
+        border-style: dotted;
+        border-color: black;
+        border-width: 2px;
+        width: 222px;
+    }
+       .my-name:hover {
+        color: darkred;
+        font-size: 120%;
+        font-family: monospace;
+        text-decoration: underline;
+    }
+    a {
+        color:navy;
+    }
+    a:visited {
+        color: orange;
+    }
+      a:hover {
+        text-decoration: underline;
+        color: gray;
+    }

@@ -1,0 +1,50 @@
+h1 {
+    color:blue;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+}
+body {
+    background-color: antiquewhite;
+}
+p {
+    color:navy;
+}
+h2 {
+    color: #115711;
+}
+h3 {
+    color: #ff0000;
+}
+.brown-text {
+    color: brown;
+}
+.important {
+    font-style: normal;
+    color: navy;
+}
+#lead-paragraph {
+        color: navy;
+            font-weight: normal;
+}
+footer p {
+    color: black;
+}
+.brown-text:hover {
+    background-color: whitesmoke;
+    width: 75%;
+}
+    .my-name:hover {
+    color: darkred;
+    font-size: 120%;
+    font-family: monospace;
+    text-decoration: underline;
+}
+a {color:navy;}
+a:visited {
+    color: green;
+}
+    a:hover {
+    text-decoration: underline;
+    color: gray;
+}
