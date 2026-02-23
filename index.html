@@ -1,102 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
 
-<meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>My Portfolio</title>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<link rel="stylesheet" href="style/style.css">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body class="home">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header>
+ <header class="site-header">
+  <div class="container header-inner">
+    <div class="brand-text">
+      <p class="brand-title">Ala Iurco</p>
+    </div>
 
-<h1>My New Life in the US!</h1>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+      <li><a href="index.html" class="active">About Me</a></li>
+<li><a href="my-achievements.html">Achievements</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<nav>
-
-<a href="my-achievements.html">
-
-<i class="fa-solid fa-trophy"></i>
-
-My achievements
-
-</a>
-
-</nav>
-
+  <div class="container hero">
+    <h1>My New Life in the US</h1>
+    <p class="subtitle">My journey of learning, building a new life, and reaching my career goals.</p>
+  </div>
 </header>
 
-<p class="brown-text">
+  <main id="main" class="container content">
+    <section class="section">
+  <h2 class="section-title">Welcome</h2>
 
-My journey of learning, building new life, and reaching my career goals!
+  <article class="card card--wide">
+    <div class="card-header">
+      <span class="icon-badge" aria-hidden="true">
+        <i class="fa-solid fa-house"></i>
+      </span>
+      <h3 class="card-title">Introduction</h3>
+    </div>
 
-</p>
+    <p class="card-text">
+      Welcome to my portfolio. This website shares my journey of building a new life in the United States,
+      pursuing my education, and growing professionally. Each step reflects my dedication, resilience,
+      and commitment to continuous learning.
+    </p>
 
-<section>
-
-<h2>About Me:</h2>
-
-<article>
-
-<h3><em>It was just a dream...</em></h3>
-
-<p class="lead-paragraph">
-
-<q class="important">
-
-My name is <strong>Ala Iurco</strong>.
-
-</q>
-
-I was born and grew up in <em>Moldova</em>, a small Eastern European country between Romania and Ukraine.
-
-<br><br>
-
-About 10 years ago, I moved to the United States to start a new chapter in my life.
-
-<br><br>
-
-My journey has been full of growth and determination. I focused on learning English, building my education, and creating a stable career.
-
-<br><br>
-
-Each step motivates me to keep moving forward.
-
-</p>
-
-</article>
-
+    <p class="card-text">
+      Here you can learn more about my background, my goals, and the achievements that have shaped my path so far.
+    </p>
+  </article>
 </section>
+    <section class="section">
+      <h2 class="section-title">About Me</h2>
 
-<hr>
+      <article class="card card--wide">
+        <div class="card-header">
+          <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-compass"></i></span>
+          <h3 class="card-title"><em>It was just a dream...</em></h3>
+        </div>
 
-<footer>
+        <p class="card-text lead-paragraph">
+          <q class="important">My name is <strong>Ala Iurco</strong>.</q>
+          I was born and grew up in <em>Moldova</em>, a small Eastern European country between Romania and Ukraine.
+        </p>
 
-<p>
+        <p class="card-text">
+          About 10 years ago, I moved to the United States to start a new chapter in my life.
+        </p>
 
-<i class="fa-regular fa-copyright"></i>
+        <p class="card-text">
+          My journey has been full of growth and determination. I focused on learning English, building my education,
+          and creating a stable career.
+        </p>
 
-Made by <span class="my-name">Ala Iurco</span>, in 2026.
+        <p class="card-text">
+          Each step motivates me to continue growing, improving my skills, and moving forward with determination toward my future goals.
+        </p>
 
-</p>
+        <p class="card-text">
+            Life is not always easy, and I have faced personal challenges along the way.
+            These experiences strengthened my resilience and motivated me to continue growing
+            both personally and professionally.
+        </p>
+        <div class="card-actions">
+          <a class="button" href="my-achievements.html">
+            <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+            <span>See my achievements</span>
+          </a>
+        </div>
+      </article>
+    </section>
+     <section class="section">
+  <h2 class="section-title">My Goals</h2>
 
-</footer>
+  <article class="card card--wide">
+    <div class="card-header">
+      <span class="icon-badge" aria-hidden="true">
+        <i class="fa-solid fa-bullseye"></i>
+      </span>
+      <h3 class="card-title">Professional and Academic Goals</h3>
+    </div>
 
+    <p class="card-text">
+      My goal is to continue developing my skills in accounting and expanding my professional knowledge.
+      I am especially interested in improving financial analysis, accuracy, and efficiency in accounting processes.
+    </p>
+
+    <p class="card-text">
+      I am committed to continuous learning and professional growth, and I look forward to opportunities
+      that allow me to contribute, gain experience, and grow in my accounting career.
+    </p>
+  </article>
+</section>
+    <section class="section">
+  <h2 class="section-title">Continue My Journey</h2>
+
+  <article class="card card--wide">
+    <div class="card-header">
+      <span class="icon-badge" aria-hidden="true">
+        <i class="fa-solid fa-arrow-right"></i>
+      </span>
+      <h3 class="card-title">Explore My Achievements</h3>
+    </div>
+
+    <p class="card-text">
+      To learn more about my personal and academic milestones, please visit my Achievements page. There you
+      can explore the key moments that have shaped my journey and motivated me to keep moving forward.
+    </p>
+
+    <div class="card-actions">
+      <a class="button" href="my-achievements.html">
+        <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+        <span>View My Achievements</span>
+      </a>
+    </div>
+  </article>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        <i class="fa-regular fa-copyright" aria-hidden="true"></i>
+        Made by <span class="my-name">Ala Iurco</span>, in 2026.
+      </p>
+      <p class="footer-links">
+        <a href="index.html">About</a>
+        <span aria-hidden="true">•</span>
+        <a href="my-achievements.html">Achievements</a>
+      </p>
+    </div>
+  </footer>
 </body>
-
 </html>

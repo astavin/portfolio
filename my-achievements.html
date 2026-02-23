@@ -1,197 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Achievements</title>
 
-<meta charset="utf-8">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<title>My achievements</title>
-
-<!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
-<!-- Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-<!-- Your CSS -->
-<link rel="stylesheet" href="style/style.css">
-
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body class="achievements">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand-text">
+      <p class="brand-title">Ala Iurco</p>
+    </div>
 
-<header>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+     <li><a href="index.html">About Me</a></li>
+    <li><a href="my-achievements.html" class="active">Achievements</a></li>
+      </ul>
+    </nav>
+  </div>
 
-<nav>
-
-<a href="index.html">
-
-<i class="fa-solid fa-user"></i>
-
-About me
-
-</a>
-
-</nav>
-
-<h1>What I Have Achieved So Far:</h1>
-
+  <div class="container hero">
+    <h1>What I Have Achieved So Far</h1>
+    <p class="subtitle">
+      A few milestones that reflect my growth, dedication, and the journey I’m proud of.
+    </p>
+  </div>
 </header>
 
-<p class="blue-text">
-
-Here are some of the key achievements that reflect my growth and dedication over the years:
-
-</p>
-
-<section>
-
-<h2>My Achievements</h2>
-
-<ul class="achievements-list">
-
-<li>
-
-<i class="fa-solid fa-language"></i>
-
-Leaning English <br>
-
-Studying English at
-
-<a href="https://www.lwtech.edu/academics/english-language-learning.aspx">LWTech</a>
-
-transformed my communication and my future, and I invite others to explore the opportunities it offers
-
-<br>
-
-<img src="images/unsplash.jpg" alt="English book" width="222" height="111" class="photo">
-
-</li>
-
-<li>
-
-<i class="fa-solid fa-earth-americas"></i>
-
-Adapting to a new culture
-
-<br>
-
-<img src="images/IMG_5966.JPG" alt="Me, Ala Iurco with my two friends during Halloween 2017" width="222" height="111" class="photo">
-
-</li>
-
-<li>
-
-<i class="fa-solid fa-graduation-cap"></i>
-
-Earning a Bachelor's degree in Business Administration, Accounting
-
-<br>
-
-Choosing the University of Washington Bothell
-
-(<a href="https://www.uwb.edu/business/undergraduate/bachelor-of-business-administration/accounting">UWB</a>)
-
-was a powerful step in my journey to grow, learn, and shape my future.
-
-<br>
-
-<img src="images/cap.webp" alt="a cap for graduation" width="222" height="111" class="photo">
-
-</li>
-
-<li>
-
-<i class="fa-solid fa-briefcase"></i>
-
-Finding a full-time job
-
-<br>
-
-<img src="images/working.jpg" alt="accounting reports and calculator" width="222" height="111" class="photo">
-
-</li>
-
-<li>
-
-<i class="fa-solid fa-book"></i>
-
-Continuing my Master's degree while working full time
-
-<br>
-
-I continued my master’s journey at
-
-<a href="https://www.uwb.edu/business/graduate/master-of-accounting">UWB</a>
-
-while working full time, pushing myself to grow professionally and academically.
-
-<br>
-
-<img src="images/IMG_4430.JPEG" alt="Master graduation" width="222" height="333" class="photo">
-
-</li>
-
-<li>
-
-<i class="fa-solid fa-heart"></i>
-
-Being a wife and a mother of two children
-
-<br>
-
-<img src="images/family.jpg" alt="family silhouette" width="222" height="111" class="photo">
-
-</li>
-
-<li>
-
-<i class="fa-brands fa-github"></i>
-
-01 assignment in HTML100 class
-
-<a href="https://github.com/astavin/Assignment-01">link</a>
-
-<br>
-
-<img src="images/IMG_0226.jpg" alt="HTML assignment image" width="222" height="111" class="photo">
-
-</li>
-
-</ul>
-
-</section>
-
-<h2><small>To be continued</small></h2>
-
-<blockquote>
-
-<q><em>Never Give Up!</em></q>
-
-My motto that helps me day by day!
-
-</blockquote>
-
-<hr>
-
-<footer>
-
-<p>
-
-<i class="fa-regular fa-copyright"></i>
-
-Made by <span class="my-name">Ala Iurco</span>, in 2026.
-
-</p>
-
-</footer>
-
+  <main id="main" class="container content">
+    <section class="section">
+      <h2 class="section-title">Highlights</h2>
+      <p class="section-lead">
+        Here are some of the key achievements that reflect my progress over the years.
+      </p>
+
+      <ul class="card-grid achievements-list">
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-language"></i></span>
+            <h3 class="card-title">Learning English</h3>
+          </div>
+          <p class="card-text">
+            Studying English at
+            <a href="https://www.lwtech.edu/academics/english-language-learning.aspx">LWTech</a>
+            strengthened my communication and opened new opportunities.
+          </p>
+          <figure class="card-media">
+            <img src="images/unsplash1.jpg" alt="English learning book" width="800" height="450">
+            <figcaption class="sr-only">English learning</figcaption>
+          </figure>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-earth-americas"></i></span>
+            <h3 class="card-title">Adapting to a New Culture</h3>
+          </div>
+          <p class="card-text">
+            Building a new life taught me resilience, confidence, and how to connect with people from different backgrounds.
+          </p>
+          <figure class="card-media">
+            <img
+              src="images/IMG_0332.jpg"
+              alt="Me celebrating the 4th of July, representing adapting to a new culture"
+              width="800"
+              height="450"
+            >
+            <figcaption class="sr-only">Halloween 2017</figcaption>
+          </figure>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></span>
+            <h3 class="card-title">Bachelor’s in Accounting</h3>
+          </div>
+          <p class="card-text">
+            Earning my bachelor's degree in the US and choosing
+            <a href="https://www.uwb.edu/business/undergraduate/bachelor-of-business-administration/accounting">UWB</a>
+            was a powerful step toward advancing my education and achieving my career goals.
+          </p>
+          <figure class="card-media">
+            <img src="images/cap.webp" alt="Graduation cap" width="800" height="450">
+            <figcaption class="sr-only">Graduation</figcaption>
+          </figure>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-briefcase"></i></span>
+            <h3 class="card-title">Finding a Full-Time Job</h3>
+          </div>
+          <p class="card-text">
+            I built professional experience and learned how to succeed in a fast-paced environment.
+          </p>
+          <figure class="card-media">
+            <img src="images/working.jpg" alt="Accounting reports and calculator" width="800" height="450">
+            <figcaption class="sr-only">Work</figcaption>
+          </figure>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-book"></i></span>
+            <h3 class="card-title">Master’s While Working</h3>
+          </div>
+          <p class="card-text">
+            Continuing my master’s journey at
+            <a href="https://www.uwb.edu/business/graduate/master-of-accounting">UWB</a>
+            while working full time pushed me to grow professionally and academically.
+          </p>
+          <figure class="card-media">
+            <img src="images/IMG_4430.JPEG" alt="Master graduation" width="800" height="1000">
+            <figcaption class="sr-only">Master’s graduation</figcaption>
+          </figure>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-solid fa-heart"></i></span>
+            <h3 class="card-title">Family</h3>
+          </div>
+          <p class="card-text">
+            My family has been a constant source of motivation and strength, inspiring me to grow,
+  stay resilient, and continue pursuing my goals.
+          </p>
+          <figure class="card-media">
+            <img src="images/family1.jpg" alt="Family silhouette representing motivation and strength" width="800" height="450">
+            <figcaption class="sr-only">Family</figcaption>
+          </figure>
+        </li>
+
+        <li class="card">
+          <div class="card-header">
+            <span class="icon-badge" aria-hidden="true"><i class="fa-brands fa-github"></i></span>
+            <h3 class="card-title">HTML100 Assignment</h3>
+          </div>
+          <p class="card-text">
+            My first assignment for HTML100:
+            <a href="https://github.com/astavin/Assignment-01">GitHub link</a>
+          </p>
+          <figure class="card-media">
+            <img src="images/Diamond_1706.jpeg" alt="Diamond, my dog, in the fall" width="800" height="450">
+            <figcaption class="sr-only">HTML assignment</figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">To Be Continued</h2>
+
+      <blockquote class="quote">
+        <p><q><strong>Never Give Up!</strong></q></p>
+        <p class="quote-caption">My motto that helps me day by day.</p>
+      </blockquote>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        <i class="fa-regular fa-copyright" aria-hidden="true"></i>
+        Made by <span class="my-name">Ala Iurco</span>, in 2026.
+      </p>
+      <p class="footer-links">
+        <a href="index.html">About</a>
+        <span aria-hidden="true">•</span>
+        <a href="my-achievements.html">Achievements</a>
+      </p>
+    </div>
+  </footer>
 </body>
-
 </html>
